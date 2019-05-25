@@ -1,6 +1,6 @@
 {
   "name": "strapi-upload-minio-presigned",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "MINIO provider for strapi upload",
   "main": "./lib",
   "directories": {
