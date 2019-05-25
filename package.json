@@ -1,5 +1,5 @@
 {
-  "name": "strapi-upload-minio-unofficial",
+  "name": "strapi-upload-minio-presigned",
   "version": "1.0.1",
   "description": "MINIO provider for strapi upload",
   "main": "./lib",
@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/floreabogdan/strapi-upload-minio.git"
+    "url": "git+https://github.com/ChinaShrimp/strapi-upload-minio"
   },
   "bugs": {
-    "url": "https://github.com/floreabogdan/strapi-upload-minio/issues"
+    "url": "https://github.com/ChinaShrimp/strapi-upload-minio/issues"
   },
-  "homepage": "https://github.com/floreabogdan/strapi-upload-minio#readme"
+  "homepage": "https://github.com/ChinaShrimp/strapi-upload-minio#readme"
 }
