@@ -1,6 +1,6 @@
 {
-  "name": "strapi-upload-minio-presigned",
-  "version": "1.0.3",
+  "name": "strapi-provider-upload-minio",
+  "version": "1.0.5",
   "description": "MINIO provider for strapi upload",
   "main": "./lib",
   "directories": {
@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChinaShrimp/strapi-upload-minio"
+    "url": "git+https://github.com/kyuumeitai/strapi-upload-minio"
   },
   "bugs": {
-    "url": "https://github.com/ChinaShrimp/strapi-upload-minio/issues"
+    "url": "https://github.com/kyuumeitai/strapi-upload-minio/issues"
   },
-  "homepage": "https://github.com/ChinaShrimp/strapi-upload-minio#readme"
+  "homepage": "https://github.com/kyuumeitai/strapi-upload-minio#readme"
 }
