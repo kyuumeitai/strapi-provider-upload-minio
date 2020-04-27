@@ -1,9 +1,9 @@
-# strapi-upload-minio
+# strapi-provider-upload-minio
 
 ## Installation and basic usage
 ```cd plugins/upload```
 
-```npm install --save https://github.com/kyuumeitai/strapi-upload-minio.git```
+```npm install --save https://github.com/kyuumeitai/strapi-provider-upload-minio.git```
 
 start your strapi application and go to: plugins => files upload settings
 
