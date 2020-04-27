@@ -1,20 +1,30 @@
 # strapi-provider-upload-minio
 
 ## Installation and basic usage
-```cd plugins/upload```
 
 ```npm install --save https://github.com/kyuumeitai/strapi-provider-upload-minio.git```
 
-start your strapi application and go to: plugins => files upload settings
+New strapi beta: the settings are in a json file, you need to put this file in your project:
 
-from the providers list select **Minio Server**
+./extensions/upload/config/settings.json
 
-fill in:
-  - access token (ex: Q3AM3UQ867SPQQA43P2F)
-  - secret token (ex: zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG)
-  - endpoint (ex: https://play.minio.io:9000)
-  - bucket (*must exist on your minio server*)
-  
+```
+{
+  "provider": "minio",
+  "name": "Minio Server Provider",
+  "providerOptions": {
+    "public": "Q3AM3UQ867SPQQA43P2F",
+    "private": "zuf+tfteSlswRu7BJ86wekitnifILbZam1KYY3TG",
+    "bucket": "strapi",
+    "internalEndpoint": "http://minio:9000",
+    "externalEndpoint": "https://minio.yourserver.io"
+  }
+}
+
+```
+
+See https://github.com/strapi/strapi/tree/master/packages/strapi-provider-upload-aws-s3
+
 NOTE: bucket policy must be set to allow your file to be readable. (just set it to: prefix \*, readonly)
 
 ## Resources
